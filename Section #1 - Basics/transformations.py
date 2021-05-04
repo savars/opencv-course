@@ -43,11 +43,11 @@ resized = cv.resize(img, (500,500), interpolation=cv.INTER_CUBIC)
 cv.imshow('Resized', resized)
 
 # Flipping
-flip = cv.flip(img, -1)
+flip = cv.flip(img, -1)  #0 vertical , 1 horizontal(mirrored), -1 both horizontally and vertically
 cv.imshow('Flip', flip)
 
 # Cropping
-cropped = img[200:400, 300:400]
+cropped = img[200:400, 300:400] 
 cv.imshow('Cropped', cropped)
 
 
