@@ -1,8 +1,9 @@
 #pylint:disable=no-member
-
+#Getting BGR and splitting into Red Green Blue 
 import cv2 as cv
 import numpy as np
 
+# We will split this image "park.jpg"
 img = cv.imread('../Resources/Photos/park.jpg')
 cv.imshow('Park', img)
 
@@ -17,7 +18,7 @@ red = cv.merge([blank,blank,r])
 
 cv.imshow('Blue', blue)
 cv.imshow('Green', green)
-cv.imshow('Red', red)
+cv.imshow('Red', red) 
 
 print(img.shape)
 print(b.shape)
