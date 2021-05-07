@@ -1,4 +1,5 @@
 #pylint:disable=no-member
+#Visualizing distribution of pixel intensity in an image 
 
 import cv2 as cv
 import matplotlib.pyplot as plt
