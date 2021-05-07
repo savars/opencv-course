@@ -1,4 +1,5 @@
 #pylint:disable=no-member
+#EDGE DETECTION - Laplacian
 
 import cv2 as cv
 import numpy as np
